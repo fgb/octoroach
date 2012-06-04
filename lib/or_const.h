@@ -12,23 +12,20 @@
 //#error "REQUIRED: Review and set radio channel & network parameters in lib/or_const.h , then comment out this line."
 
 // Motile address ; all MRI robots were shipped with this configuration
-#define SRC_ADDR 		0x3002
-#define SRC_PAN_ID 		0x3000
-#define MY_CHAN			0x0e
+//#define SRC_ADDR        0x3002
+//#define SRC_PAN_ID      0x3000
+//#define MY_CHAN         0x0e
 //Hard code in destination address for now, update to be dynamic later
-#define DST_ADDR		0x3001
-
+//#define DST_ADDR        0x3001
 
 //Define constants used for radio init
-/* */
-//#define SRC_ADDR 		0x2052
-//#define SRC_PAN_ID 		0x2050
-//#define MY_CHAN			0x19
+#define SRC_ADDR        0x1102
+#define SRC_PAN_ID      0x1100
+#define MY_CHAN         0x16
 //Hard code in destination address for now, update to be dynamic later
-//#define DST_ADDR		0x2051
-/* */
+#define DST_ADDR        0x1101
 
-#define RXPQ_MAX_SIZE 	50
-#define TXPQ_MAX_SIZE	50
+#define RXPQ_MAX_SIZE   50
+#define TXPQ_MAX_SIZE   50
 
 #endif //__OR_CONST_H
